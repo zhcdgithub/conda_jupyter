@@ -12,3 +12,7 @@ conda create -n tf2 python=3.6
 activate tf2
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow==1.13.1
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple keras==2.1.5
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -U numpy=1.16
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pandas
+
