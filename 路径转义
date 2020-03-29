@@ -1,0 +1,2 @@
+data = pd.read_csv("D:\tensorflow\note")
+上面\t,\n会被转义，使用路径最好用/,例如"D:/tensorflow/note"
