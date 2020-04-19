@@ -1,9 +1,7 @@
 conda env list   查看安装有哪些环境
-
 activate your_env_name 激活环境   your_env_name为你所创建环境名字
 
 conda install ipykernel
-
 python -m ipykernel install --name your_env_name      
 
 
@@ -15,4 +13,23 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple keras==2.1.5
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -U numpy=1.16
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pandas
+
+
+Ubuntu 安装miniconda:
+1.  从清华软件源官网下载   https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/ 
+2. 运行 bash Miniconda3-latest-Linux-x86_64.sh
+3.source ~/.bashrc   使环境变量立即生效
+
+##压缩解压
+tar cvzf  1.tar.gz  /home/zhc/stu/*.py
+tar xvzf  1.tar.gz  -C  /home/zhc/stu/frcnn
+
+tar cvjf  1.tar.bz2  /home/zhc/stu/*.py
+tar xvjf  1.tar.bz2  -C  /home/zhc/stu/frcnn
+
+##screen
+进入screen环境 :screen
+退出screen环境: ctrl+a   d
+查看screen会话: screen -ls
+恢复会话:  screen -r sessionid id编号
 
