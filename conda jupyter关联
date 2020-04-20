@@ -25,6 +25,15 @@ cudnn                     7.6.5                cuda10.0_0    https://mirrors.tun
 
 watch -n 5 nvidia-smi
 
+训练提示cudnn有问题：train.py前面加：
+import tensorflow as tf
+import numpy as np
+import keras
+config = tf.compat.v1.ConfigProto(allow_soft_placement=True)
+config.gpu_options.per_process_gpu_memory_fraction = 0.3
+tf.compat.v1.keras.backend.set_session(tf.compat.v1.Session(config=config))
+这几句
+
 Ubuntu 安装miniconda:
 1.  从清华软件源官网下载   https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/ 
 2. 运行 bash Miniconda3-latest-Linux-x86_64.sh
