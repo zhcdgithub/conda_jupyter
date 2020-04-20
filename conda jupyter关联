@@ -19,6 +19,11 @@ pip install pillow
 conda install cudnn=7.3.1 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/
 conda install cudatoolkit=10.0 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64/
 
+cudatoolkit               10.0.130                      0    defaults
+cudnn                     7.6.5                cuda10.0_0    https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+
+
+watch -n 5 nvidia-smi
 
 Ubuntu 安装miniconda:
 1.  从清华软件源官网下载   https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/ 
