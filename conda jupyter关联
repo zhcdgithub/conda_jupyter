@@ -13,6 +13,9 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple keras==2.1.5
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -U numpy=1.16
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pandas
+
+pip install opencv-python
+pip install pillow
 conda install cudnn=7.3.1 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/
 conda install cudatoolkit=10.0 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64/
 
