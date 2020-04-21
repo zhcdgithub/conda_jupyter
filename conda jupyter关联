@@ -1,3 +1,5 @@
+
+ipython ctrl+o 实现换行
 conda env list   查看安装有哪些环境
 activate your_env_name 激活环境   your_env_name为你所创建环境名字
 
