@@ -52,3 +52,14 @@ tar xvjf  1.tar.bz2  -C  /home/zhc/stu/frcnn
 查看screen会话: screen -ls
 恢复会话:  screen -r sessionid id编号
 
+##
+useradd -m zhc 切换用户后只显示doolr
+用root用户查看passwd文件
+root@ubuntu:~# cat /etc/passwd
+最后一行
+jiang:x:1003:1003::/usr/jiang:/bin/sh
+改为：
+jiang:x:1003:1003::/usr/jiang:/bin/bash
+
+##
+
