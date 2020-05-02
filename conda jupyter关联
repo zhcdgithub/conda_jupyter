@@ -1,3 +1,10 @@
+###########
+pip freeze > requirements.txt
+pip install -r requirements.txt
+conda list -e > requirements.txt
+conda install --yes --file requirements.txt
+#############
+
 
 ipython ctrl+o 实现换行
 conda env list   查看安装有哪些环境
