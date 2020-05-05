@@ -1,2 +1,8 @@
-data = pd.read_csv("D:\tensorflow\note")
-上面\t,\n会被转义，使用路径最好用/,例如"D:/tensorflow/note"
+path = r"D:\tensorflow\note"
+data = pd.read_csv(path)
+
+字符串前面加r可以防止转义
+错：data_path="C:\Users\liubb\Desktop\机器学习\U_REEData无苗儿山.xlsx"
+对：data_path=r"C:\Users\liubb\Desktop\机器学习\U_REEData无苗儿山.xlsx"
+对：data_path="C:/Users/liubb/Desktop/机器学习/U_REEData无苗儿山.xlsx"
+
