@@ -17,6 +17,14 @@ python -m ipykernel install --name your_env_name
 
 conda create -n tf2 python=3.6
 activate tf2
+
+conda install pytorch torchvision cpuonly -c pytorch
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+##测试
+import torch
+import torchvision
+print(torch.__version__)
+##
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow==1.13.1
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple keras==2.1.5
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy
