@@ -1,0 +1,4 @@
+目录文件配置好之后在 jd_scripts目录执行；
+在docker-compose.yml里面修改cookie；
+docker-compose up -d 启动（修改docker-compose.yml后需要使用此命令使更改生效）；
+docker exec -it jd_scripts /bin/sh -c 'git -C /scripts pull && node /scripts/jd_bean_change.js' 手动运行一脚本
